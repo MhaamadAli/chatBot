@@ -1,10 +1,12 @@
 module.exports = {
   apps: [
     {
-      script: 'npm run dev',
+      name: 'chatbot',
+      script: 'npm',
+      args: 'run dev',
+      cwd: '/home/ubuntu/chatbot', // Adjust this path to match your project directory on the server
     },
   ],
-
   deploy: {
     production: {
       key: 'ec2-chat-bot.pem',
