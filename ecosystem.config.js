@@ -4,7 +4,7 @@ module.exports = {
       name: 'chatbot',
       script: 'npm',
       args: 'run dev',
-      cwd: '/home/ubuntu/chatbot', // Adjust this path to match your project directory on the server
+      cwd: '/home/ubuntu/source',
     },
   ],
   deploy: {
